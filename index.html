@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script data-require="jquery@2.1.4" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="http://media.flowingdata.com/js/jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.9/d3.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <div class="se-pre-con"></div>
+  <div id="wrapper" style=" width:800px;position: relative;padding-left:35px; padding-bottom;50px">
+    <div id="textBox" class="hidden">
+    </div>
+    <div id="header" style="width:500px; float:left">BlackRock Recovery Tracker</div>
+    <div id="BIILogo" style="width:200px; float:right">
+      <a style="float: right;" href="http://www.blackrock.com/corporate/en-us/news-and-insights/blackrock-investment-institute"><img style="border:0;" src="https://s3.amazonaws.com/blackrockblog-blanktemplate-assets/images/BIILink.gif	"></a>
+    </div>
+    <div id="intro" style=" height:30px;width:800px;float:left">Compare the GDP growth of selected countries since 2008 with historical recessions</div>
+    <div style="height:35px;width:772px">
+      <div class="btn" id="howitworksButton">How it works</div>
+      <div class="btn1 hidden" id="howitworksButton1">1</div>
+      <div class="btn1 hidden" id="howitworksButton2">2</div>
+      <div class="btn1 hidden" id="howitworksButton3">3</div>
+      <div class="btn1 hidden" id="howitworksButton4">4</div>
+      <div class="link" id="OutlookLink"><a target="_blank" href="http://www.blackrock.com/corporate/en-us/literature/whitepaper/bii-2016-outlook-us-version.pdf">2016 Outlook</a></div>
+    </div>
+    <div id="container">
+    </div>
+    <div class="hAxisButtons" style="height:120px;width:600px;float:left">
+      <div class="hbutton selected" id="recessionButton">1960-2006 Recessions</div>
+      <div class="hbutton selected" id="USButton">U.S.</div>
+      <div class="hbutton selected" id="eurozoneButton">Eurozone</div>
+      <div class="hbutton" id="japanButton">Japan</div>
+      <div class="hbutton" id="UKButton">U.K.</div>
+      <div class="hbutton" id="germanyButton">Germany</div>
+      <div class="hbutton" id="franceButton">France</div>
+      <div class="hbutton" id="italyButton">Italy</div>
+      <div class="hbutton" id="spainButton">Spain</div>
+      <div class="hbutton" id="australiaButton">Australia</div>
+      <div class="hbutton" id="canadaButton">Canada</div>
+      <div class="rbutton" id="removeButton">Remove all countries</div>
+    </div>
+    <div id="Source" style="width:800px; float:left">Sources: BlackRock Investment Institute, IMF, OECD and Thomson Reuters. November 2015.</div>
+    <div id="Notes" style="width:800px; height:30px; float:left">Notes: The big five financial crises are Finland (1990), Japan (1993), Norway (1998), Spain (1978) and Sweden (1990). Historic recession lines are based on recessions (two straight quarters of contraction) within advanced G20 countries from 1960 to
+      2006. The lines are rebased to 100 at the quarter before the start of each recession or Q2 2008 (the quarter before the U.S. recession started) for the current recession paths.</div>
+    <script src="script.js"></script>
+
+  </div>
+</body>
+
+</html>
